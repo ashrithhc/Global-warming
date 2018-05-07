@@ -444,7 +444,7 @@ plt.show()
 ```
 
 
-    <Figure size 640x480 with 1 Axes>
+![png](output_3_0.png)
 
 
 
@@ -460,7 +460,7 @@ print(scipy.stats.ks_2samp(s, yValues)) #check the score
 ```
 
     15.627187846826441
-    Ks_2sampResult(statistic=0.8964433497536947, pvalue=1.4951801247621294e-120)
+    Ks_2sampResult(statistic=0.8838128078817733, pvalue=3.434899890159913e-117)
 
 
 
