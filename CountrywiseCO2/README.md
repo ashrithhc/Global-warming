@@ -12,19 +12,7 @@ co2data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -220,19 +208,6 @@ co2data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -480,9 +455,6 @@ plt.show()
 
 ![png](output_5_1.png)
 
-
-<<<<<<< HEAD
-
 ```python
 minVal = min(yValues)
 sumVal = 0
@@ -495,7 +467,3 @@ print ((mle_alpha))
 ```
 
     0.1686175303066068
-
-=======
-<img src="./MLE.png" width="90%"/>
->>>>>>> 9bd56465ba71c25593e02aac405e54d670455a61
