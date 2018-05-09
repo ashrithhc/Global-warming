@@ -454,3 +454,5 @@ plt.show()
 
 ![png](output_5_1.png)
 
+
+<img src="./MLE.png" width="90%"/>
