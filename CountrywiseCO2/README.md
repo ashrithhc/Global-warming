@@ -12,7 +12,19 @@ co2data.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -208,6 +220,19 @@ co2data.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -455,6 +480,8 @@ plt.show()
 
 ![png](output_5_1.png)
 
+
+
 ```python
 minVal = min(yValues)
 sumVal = 0
@@ -467,3 +494,17 @@ print ((mle_alpha))
 ```
 
     0.1686175303066068
+
+
+
+```python
+a, m = 0.16861753, float(min(yValues))
+s = (np.random.pareto(a, 1000) + 1) * m
+p,q = len(s), len(yValues)
+print(math.sqrt((p+q)/p*q))
+print(scipy.stats.ks_2samp(s, yValues)) #check the score
+```
+
+    15.627187846826441
+    Ks_2sampResult(statistic=0.34062068965517234, pvalue=9.070190483368839e-18)
+
