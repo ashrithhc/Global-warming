@@ -481,6 +481,7 @@ plt.show()
 ![png](output_5_1.png)
 
 
+<<<<<<< HEAD
 
 ```python
 minVal = min(yValues)
@@ -495,3 +496,6 @@ print ((mle_alpha))
 
     0.1686175303066068
 
+=======
+<img src="./MLE.png" width="90%"/>
+>>>>>>> 9bd56465ba71c25593e02aac405e54d670455a61
