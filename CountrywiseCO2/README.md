@@ -12,6 +12,19 @@ co2data.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -207,6 +220,19 @@ co2data.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -434,7 +460,7 @@ print(scipy.stats.ks_2samp(s, yValues)) #check the score
 ```
 
     15.627187846826441
-    Ks_2sampResult(statistic=0.8838128078817733, pvalue=3.434899890159913e-117)
+    Ks_2sampResult(statistic=0.8798866995073891, pvalue=3.723978592728495e-116)
 
 
 
@@ -453,4 +479,19 @@ plt.show()
 
 
 ![png](output_5_1.png)
+
+
+
+```python
+minVal = min(yValues)
+sumVal = 0
+
+numerator = len(yValues)
+denominator = sum([np.log(x) for x in yValues]) + len(yValues)*minVal
+
+mle_alpha = numerator/denominator
+print ((mle_alpha))
+```
+
+    0.1686175303066068
 
