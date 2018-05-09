@@ -1,6 +1,6 @@
 Time-series analysis of Precipitation and Temperature : https://plot.ly/~raghunanj/0.embed
 
-<img src="../timeseries.png" width="50%"/>
+<img src="./timeseries.png" width="90%"/>
 
 ```python
 import pandas as pd
