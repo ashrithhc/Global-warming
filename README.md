@@ -6,7 +6,7 @@ To run the code on your machine,
     jupyter notebook
     
 #### List of Hypothesis/Data-analysis :
-* <a href="https://github.com/ashrithhc/Global-warming/tree/master/CountrywiseCO2" >Country wise Carbon dioxide emission - Pareto distribution</a>
+* <a href="https://github.com/ashrithhc/Global-warming/tree/master/CountrywiseCO2" >Country wise Carbon dioxide emission - Pareto distribution - MLE Estimation</a>
 * <a href="https://github.com/ashrithhc/Global-warming/tree/master/Temperature-Co2">Correlation between Temperature and Carbon Dioxide emission</a>
 * <a href="https://github.com/ashrithhc/Global-warming/tree/master/Global-warming">GLobal warming is a Hoax!</a>
 * <a href="https://github.com/ashrithhc/Global-warming/tree/master/Natural-disaster">Correlation between Temperature and Natural Disaster</a>
