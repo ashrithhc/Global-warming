@@ -481,6 +481,8 @@ plt.show()
 ![png](output_5_1.png)
 
 
+#### MLE estimation for "alpha" to find parameters of pareto distribution
+
 
 ```python
 minVal = min(yValues)
